@@ -24,7 +24,7 @@ const Page = () => {
   const searchParams = useSearchParams();
   const search = searchParams.get('id');
   const custom = searchParams.get('custom');
-  let ttype, imgs, title, price, desc, cat;
+  let imgs, title, price, desc, cat;
   const { cart, addToCart } = useCart();
   const { isBooleanValue, setBooleanValue } = useBooleanValue();
   const targetRef = useRef(null);
@@ -43,8 +43,7 @@ const Page = () => {
   }, []);
 
   if (allTemp1) {
-    imgs = allTemp1.img;
-    ttype = allTemp1.type;
+    imgs = allTemp1.img; 
     cat = allTemp1.category;
     title = allTemp1.title;
     price = allTemp1.price;
@@ -270,7 +269,7 @@ const Page = () => {
                       </label>
                       <div className="DynamicAccordion_Tab_Details">
                         <p>
-                          We offer regular and express delivery to most addresses on Lebanon. Delivery cost are calculated at checkout.
+                          We offer regular and express delivery to most addresses . Delivery cost are calculated at checkout.
                         </p>
                       </div>
                     </div>

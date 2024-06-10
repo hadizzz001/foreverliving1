@@ -12,7 +12,7 @@ const MyComponent = () => {
           <div className="image-container">
             <Image
               className="wallet-image"
-              src="https://ucarecdn.com/91625c86-893f-4dd1-9827-902dc6a38f76/61lwJy4B8PL_SX3000_2.webp"
+              src="https://ucarecdn.com/10a96377-7b32-4401-adbc-606e5c7b87b5/004.webp"
               alt="background"
               width={3000}
               height={1200}
@@ -23,7 +23,7 @@ const MyComponent = () => {
           <div className="image-container">
             <Image
               className="wallet-image"
-              src="https://ucarecdn.com/bbf97cdf-d0d2-47a1-b31b-b9579aceff8f/61lwJy4B8PL_SX3000_.jpg"
+              src="https://ucarecdn.com/d1ca448f-350b-4ec7-9dee-4efc97c1934f/002.webp"
               alt="background"
               width={3000}
               height={1200}
@@ -34,7 +34,7 @@ const MyComponent = () => {
           <div className="image-container">
             <Image
               className="wallet-image"
-              src="https://ucarecdn.com/8ea93ba6-2743-4adc-8da0-405a2c46a275/61lwJy4B8PL_SX3000_1.webp"
+              src="https://ucarecdn.com/aba35681-d60a-4225-9c41-9d3d8ab8bc30/001.webp"
               alt="background"
               width={3000}
               height={1200}
@@ -45,7 +45,7 @@ const MyComponent = () => {
           <div className="image-container">
             <Image
               className="wallet-image"
-              src="https://ucarecdn.com/279e994d-3481-4e1c-a185-6962f1b5d2ff/61zAjw4bqPL_SX3000_.jpg"
+              src="https://ucarecdn.com/d8dc3246-3477-4bf3-a794-5fdad6c366f4/003.webp"
               alt="background"
               width={3000}
               height={1200}

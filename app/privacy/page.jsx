@@ -30,7 +30,7 @@ export default function Home() {
 
 
 
-                                    At Anazon, we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our website and use our services. We understand the importance of your personal data and are dedicated to ensuring its confidentiality and security.
+                                    At Donishka, we are committed to protecting your privacy. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our website and use our services. We understand the importance of your personal data and are dedicated to ensuring its confidentiality and security.
 
                                     Information Collection and Use
 
@@ -38,7 +38,7 @@ export default function Home() {
 
                                     Data Protection
 
-                                    Anazon employs robust security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. We use encryption technologies and follow best practices to ensure your data is safe.
+                                    Donishka employs robust security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. We use encryption technologies and follow best practices to ensure your data is safe.
 
                                     Use of Information
 
@@ -54,7 +54,7 @@ export default function Home() {
 
                                     Changes to This Policy
 
-                                    Anazon reserves the right to update this Privacy Policy at any time. We will notify you of any significant changes by posting the new policy on our website. Your continued use of our services after such changes constitutes your acceptance of the new Privacy Policy.
+                                    Donishka reserves the right to update this Privacy Policy at any time. We will notify you of any significant changes by posting the new policy on our website. Your continued use of our services after such changes constitutes your acceptance of the new Privacy Policy.
 
                                     Contact Us
 
@@ -94,7 +94,7 @@ export default function Home() {
                 <style
                     dangerouslySetInnerHTML={{
                         __html:
-                            "\n  .u-section-1 .u-image-1 {\n    border-color: #ab695d !important;\n    width: 170px;\n    height: 170px;\n    margin: 0 auto;\n}\n"
+                            "\n  .u-section-1 .u-image-1 {\n    border-color: #c01907 !important;\n    width: 170px;\n    height: 170px;\n    margin: 0 auto;\n}\n"
                     }}
                 />
 

@@ -26,9 +26,9 @@ export default function Home() {
           <h2 className="u-text u-text-1" style={{fontFamily: '"Manrope", sans-serif',fontWeight: "bolder",marginBottom: "1em",fontSize: "3em"}}>About Company</h2>
           <p className="u-text u-text-2" style={{fontFamily: 'Frank Ruhl Libre, "PT Serif", "Noto Serif", "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", ui-serif, Georgia, Cambria, Times New Roman, Times, serif',fontSize: "1.2rem",lineHeight: "2rem",fontWeight:"400"}}>
             {" "}
-            Anazon, founded by Hadi Medlej in 2024, is a local e-commerce shop headquartered in Beirut, Lebanon. Initially an online products, it has expanded to offer a vast array of products and items.
+            Donishka is a vibrant company with a strong presence in Gombe and Kinshasa. We specialize in providing a wide range of high-quality products across our three main categories: food, drinks, and mart.
 <br/><br/>
-Anazon offers a diverse range of products, catering to almost every conceivable need. These include electronics such as smartphones, tablets, and smart home devices. They also provide a wide selection of books, both physical and digital. Anazon offers everyday items such as cables, batteries, and kitchen essentials. The company sells a vast array of apparel and accessories for all ages and styles.
+Our commitment to excellence ensures that our customers receive only the best products, sourced locally and internationally. At Donishka, we prioritize customer satisfaction and strive to create a seamless shopping experience both in-store and online. Our dedication to the community and sustainability drives us to continuously improve and expand our offerings.
                                 
           </p>
  
@@ -87,7 +87,7 @@ Anazon offers a diverse range of products, catering to almost every conceivable 
   <style
   dangerouslySetInnerHTML={{
     __html:
-      "\n  .u-section-1 .u-image-1 {\n    border-color: #ab695d !important;\n    width: 170px;\n    height: 170px;\n    margin: 0 auto;\n}\n"
+      "\n  .u-section-1 .u-image-1 {\n    border-color: #c01907 !important;\n    width: 170px;\n    height: 170px;\n    margin: 0 auto;\n}\n"
   }}
 />
 

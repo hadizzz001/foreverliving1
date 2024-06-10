@@ -256,6 +256,7 @@ const page = () => {
                                       <div
                                         className="wfacp-section wfacp-hg-by-box step_0 form_section_single_step_0_elementor-hific "
                                         data-field-count={19}
+                                        style={{marginTop:"5em"}}
                                       >
                                         <div className="wfacp_internal_form_wrap wfacp-comm-title ">
                                           <h2 className="wfacp_section_heading wfacp_section_title ">
@@ -636,7 +637,7 @@ const page = () => {
                                     <span className="elementor-icon-list-icon">
                                       <FontAwesomeIcon
                                         icon={faCheckCircle}
-                                        style={{ color: '#ab695d', marginLeft: '10px' }}
+                                        style={{ color: '#c01907', marginLeft: '10px' }}
                                       />
                                     </span>
                                     <span className="elementor-icon-list-text">
@@ -668,7 +669,7 @@ const page = () => {
                                     <span className="elementor-icon-list-icon">
                                       <FontAwesomeIcon
                                         icon={faCheckCircle}
-                                        style={{ color: '#ab695d', marginLeft: '10px' }}
+                                        style={{ color: '#c01907', marginLeft: '10px' }}
                                       />
                                     </span>
                                     <span className="elementor-icon-list-text">
@@ -836,7 +837,7 @@ const page = () => {
                             <span className="elementor-icon-list-icon">
                               <FontAwesomeIcon
                                 icon={faCheckCircle}
-                                style={{ color: '#ab695d', marginLeft: '10px' }}
+                                style={{ color: '#c01907', marginLeft: '10px' }}
                               />
                             </span>
                             <span className="elementor-icon-list-text">
@@ -847,7 +848,7 @@ const page = () => {
                             <span className="elementor-icon-list-icon">
                               <FontAwesomeIcon
                                 icon={faCheckCircle}
-                                style={{ color: '#ab695d', marginLeft: '10px' }}
+                                style={{ color: '#c01907', marginLeft: '10px' }}
                               />
                             </span>
                             <span className="elementor-icon-list-text">
@@ -858,7 +859,7 @@ const page = () => {
                             <span className="elementor-icon-list-icon">
                               <FontAwesomeIcon
                                 icon={faCheckCircle}
-                                style={{ color: '#ab695d', marginLeft: '10px' }}
+                                style={{ color: '#c01907', marginLeft: '10px' }}
                               />
                             </span>
                             <span className="elementor-icon-list-text">
@@ -869,7 +870,7 @@ const page = () => {
                             <span className="elementor-icon-list-icon">
                               <FontAwesomeIcon
                                 icon={faCheckCircle}
-                                style={{ color: '#ab695d', marginLeft: '10px' }}
+                                style={{ color: '#c01907', marginLeft: '10px' }}
                               />
                             </span>
                             <span className="elementor-icon-list-text">

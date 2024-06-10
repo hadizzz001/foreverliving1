@@ -14,6 +14,15 @@ export async function fetchTemp1(cat:any) {
 }
 
 
+export async function fetchTemp1z(cat:any) { 
+    const response = await fetch(`/api/postsz/${cat}` , { next: { revalidate: 0 } }); 
+    const result = await response.json();  
+    return result.posts;
+}
+
+
+
+
 export async function fetchTemp2(type:any) { 
     const response = await fetch(`/api/posts1/${type}` , { next: { revalidate: 0 } }); 
     const result = await response.json();  

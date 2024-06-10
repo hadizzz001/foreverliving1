@@ -12,7 +12,7 @@ interface CarCardProps {
 
 
 const CarCard = ({ temp }: CarCardProps) => {
-  const { id,title,category, type, img } = temp; 
+  const { id,title,category, img } = temp; 
   
 
   return (
@@ -46,16 +46,13 @@ const CarCard = ({ temp }: CarCardProps) => {
                                     className="br_absolute br_inset-0 br_z-10" 
                                 />
                             </a>
-                        </h3>
-                        <div className="br_text-base-sans-bold-spaced br_text-grey-600 br_inline-flex br_flex-wrap br_gap-x-2 br_items-baseline apex:br_text-white group-[.centered]/tile:br_justify-center">
-                            {type}
-                        </div>
+                        </h3> 
                     </div>
 
                     <div className="initial:br_row-span-1 br_col-start-1 br_row-start-4 br_px-3 br_self-end group-[.centered]/tile:br_justify-center group-[.centered]/tile:br_text-center">
                         <p className="br_text-sm-sans-spaced br_text-grey-500 apex:br_text-grey-300 br_line-clamp-3 sm:br_line-clamp-none">
                             <span className="br_text-base-sans-bold-cta-uppercase ">
-                                Shop now &gt;
+                                Buy now &gt;
                             </span>
                         </p>
                     </div>
