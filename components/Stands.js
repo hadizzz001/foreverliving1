@@ -1,7 +1,7 @@
 "use client"
 import Script from 'next/script'
 import { useState, useEffect } from "react";
-import { fetchTemp1z} from '@/utils'
+import { fetchTemp1} from '@/utils'
 
 export default function Test() {
   const defaultBgImage = 'https://ucarecdn.com/a1646696-1334-4ac4-a32d-abfca8c1e8f4/furn.webp';
@@ -21,7 +21,7 @@ export default function Test() {
 
 
   const a = async () => {
-    b = await fetchTemp1z("Donishka Mart")
+    b = await fetchTemp1("Donishka Mart")
     setTemp(b)
   }
   useEffect(() => {
@@ -78,71 +78,105 @@ export default function Test() {
             <div className="grid-container">
               <div className="product-grid-outer">
                 <div
-                  className="product-grid product-grid--vertical   product-grid--borderless"
+                  className=" "
                   data-options='{"watchCSS": true, "cellAlign": "left", "pageDots": false, "prevNextButtons": true,  "wrapAround": false, "groupCells": true}'
                   data-arrow-position-middle=""
                 >
                   {allTemp && allTemp?.length > 0 ? (
-                    allTemp.map((item) => (
-                      <div
-                        className="product-item one-third medium--one-third small--one-half product-item--borderless product-item--centered product-item--outer-text product-item--has-quickbuy product-item--template--21602747875626__55a023da-d0ae-4d81-83e8-4589132b3ca5-1"
-                        data-product-grid-item=""
-                        data-slide={0}
-                        data-slide-index={0}
-                      >
-                        <div
-                          className="product-item__image double__image"
-                          data-product-image=""
-                        >
-                          <a
-                            className="product-link"
-                            href={`/product?id=${item.id}`}
-                            aria-label="Brothers Dopp Kit Duo . Brownish"
-                            data-grid-link="/products/brothers-dopp-kit-duo-brownish"
-                          >
-                            <div
-                              className="product-item__bg lazyload"
-                              style={{
-                                backgroundImage: `url('${item.img[0]}')`,
-                                backgroundSize: 'contain',
-                                backgroundPosition: 'center',
-                                width: '100%', // Adjust as needed
-                                height: '100%', // Adjust as needed 
-                                backgroundRepeat: "no-repeat"
-                              }} >
-                              &nbsp;
-                            </div>
-                          </a>
-                        </div>
-                        <div
-                          className="product-information"
-                          data-aos="fade"
-                          data-aos-delay={0}
-                          data-aos-duration={800}
-                          data-aos-anchor=".product-item--template--21602747875626__55a023da-d0ae-4d81-83e8-4589132b3ca5-1"
-                          data-product-information=""
-                        >
-                          <a
-                            className="product-link product-link--info"
-                            href={`/product?id=${item.id}`}
-                            aria-label="Brothers Dopp Kit Duo . Brownish"
-                            data-grid-link="/products/brothers-dopp-kit-duo-brownish"
-                          >
-                            <p className="product__grid__title product__grid__element">
-                              <span className="product__grid__title__default product__grid__element__default">
-                                {item.title}
-                              </span> 
-                            </p>
-                            <p className="product__grid__title product__grid__element">
-                              <span className="product__grid__title__default product__grid__element__default">
-                                ${item.price}
-                              </span> 
-                            </p>
-                          </a>
-                        </div>
-                      </div>
+ <div className="grid-container">
+ {allTemp.map((item, index) => (
+   <div
+     key={index}
+     className="product-item one-third medium--one-third small--one-half product-item--borderless product-item--centered product-item--outer-text product-item--has-quickbuy product-item--template--21602747875626__55a023da-d0ae-4d81-83e8-4589132b3ca5-1"
+     data-product-grid-item=""
+     data-slide={0}
+     data-slide-index={0}
+   >
+     <div
+       className="product-item__image double__image"
+       data-product-image=""
+     >
+       <a
+         className="product-link"
+         href={`/product?id=${item.id}`}
+         aria-label="Brothers Dopp Kit Duo . Brownish"
+         data-grid-link="/products/brothers-dopp-kit-duo-brownish"
+       >
+         <div
+           className="product-item__bg lazyload"
+           style={{
+             backgroundImage: `url('${item.img[0]}')`,
+             backgroundSize: 'contain',
+             backgroundPosition: 'center',
+             width: '100%', // Adjust as needed
+             height: '100%', // Adjust as needed
+             backgroundRepeat: "no-repeat"
+           }} >
+           &nbsp;
+         </div>
+       </a>
+     </div>
+     <div
+       className="product-information"
+       data-aos="fade"
+       data-aos-delay={0}
+       data-aos-duration={800}
+       data-aos-anchor=".product-item--template--21602747875626__55a023da-d0ae-4d81-83e8-4589132b3ca5-1"
+       data-product-information=""
+     >
+       <a
+         className="product-link product-link--info"
+         href={`/product?id=${item.id}`}
+         aria-label="Brothers Dopp Kit Duo . Brownish"
+         data-grid-link="/products/brothers-dopp-kit-duo-brownish"
+       >
+         <p className="product__grid__title product__grid__element">
+           <span className="product__grid__title__default product__grid__element__default">
+             {item.title}
+           </span>
+         </p>
+         <p className="product__grid__title product__grid__element">
+           <span className="product__grid__title__default product__grid__element__default">
+             ${item.price}
+           </span>
+         </p>
+       </a>
+     </div>
+   </div>
+ ))}
+ <style jsx>{`
+   .grid-container {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 16px; /* Adjust the gap as needed */
+   }
 
-                    ))
+   @media (max-width: 768px) { /* Adjust the breakpoint as needed */
+     .grid-container {
+       grid-template-columns: 1fr;
+     }
+   }
+
+   .product-item {
+     /* Your existing styles for product-item */
+   }
+   .product-item__image {
+     /* Your existing styles for product-item__image */
+   }
+   .product-link {
+     /* Your existing styles for product-link */
+   }
+   .product-item__bg {
+     /* Your existing styles for product-item__bg */
+   }
+   .product-information {
+     /* Your existing styles for product-information */
+   }
+   .product__grid__title {
+     /* Your existing styles for product__grid__title */
+   }
+ `}</style>
+</div>
                   ) : (
                     <div className='home___error-container'>
                       <h2 className='text-black text-xl dont-bold'>...</h2>

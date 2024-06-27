@@ -56,6 +56,102 @@
         "async": false
       }
     },
+    "(app-client)/./app/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/page.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Cards.js": {
+      "*": {
+        "id": "(sc_client)/./components/Cards.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Carousel.js": {
+      "*": {
+        "id": "(sc_client)/./components/Carousel.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Design.js": {
+      "*": {
+        "id": "(sc_client)/./components/Design.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/RCards.js": {
+      "*": {
+        "id": "(sc_client)/./components/RCards.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Rate.js": {
+      "*": {
+        "id": "(sc_client)/./components/Rate.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Stands.js": {
+      "*": {
+        "id": "(sc_client)/./components/Stands.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Stickers.js": {
+      "*": {
+        "id": "(sc_client)/./components/Stickers.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/script.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/script.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./app/api/sendEmail/sendEmail.ts": {
       "*": {
         "id": "(sc_client)/./app/api/sendEmail/sendEmail.ts",
@@ -80,9 +176,9 @@
         "async": false
       }
     },
-    "(app-client)/./app/product/page.jsx": {
+    "(app-client)/./app/layout.tsx": {
       "*": {
-        "id": "(sc_client)/./app/product/page.jsx",
+        "id": "(sc_client)/./app/layout.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -104,25 +200,17 @@
         "async": false
       }
     },
-    "(app-client)/./components/Navbar2.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/Navbar2.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./app/layout.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/layout.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./components/GifLoader.js": {
       "*": {
         "id": "(sc_client)/./components/GifLoader.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Navbar2.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/Navbar2.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -291,6 +379,134 @@
       ],
       "async": false
     },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\app\\page.tsx": {
+      "id": "(app-client)/./app/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\components\\Cards.js": {
+      "id": "(app-client)/./components/Cards.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\components\\Carousel.js": {
+      "id": "(app-client)/./components/Carousel.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\components\\Design.js": {
+      "id": "(app-client)/./components/Design.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\components\\RCards.js": {
+      "id": "(app-client)/./components/RCards.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\components\\Rate.js": {
+      "id": "(app-client)/./components/Rate.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\components\\Stands.js": {
+      "id": "(app-client)/./components/Stands.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\components\\Stickers.js": {
+      "id": "(app-client)/./components/Stickers.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\node_modules\\next\\dist\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\node_modules\\next\\dist\\esm\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\node_modules\\next\\dist\\client\\script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\node_modules\\next\\dist\\esm\\client\\script.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/script.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\node_modules\\next\\dist\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
     "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\app\\api\\sendEmail\\sendEmail.ts": {
       "id": "(app-client)/./app/api/sendEmail/sendEmail.ts",
       "name": "*",
@@ -315,11 +531,11 @@
       ],
       "async": false
     },
-    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\app\\product\\page.jsx": {
-      "id": "(app-client)/./app/product/page.jsx",
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\app\\layout.tsx": {
+      "id": "(app-client)/./app/layout.tsx",
       "name": "*",
       "chunks": [
-        "app/product/page:static/chunks/app/product/page.js"
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -339,24 +555,16 @@
       ],
       "async": false
     },
-    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\components\\Navbar2.tsx": {
-      "id": "(app-client)/./components/Navbar2.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\app\\layout.tsx": {
-      "id": "(app-client)/./app/layout.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\components\\GifLoader.js": {
       "id": "(app-client)/./components/GifLoader.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\components\\Navbar2.tsx": {
+      "id": "(app-client)/./components/Navbar2.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
@@ -365,17 +573,18 @@
     }
   },
   "entryCSSFiles": {
-    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\app\\loading": {
-      "modules": [],
-      "files": []
-    },
-    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\app\\product\\page": {
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\app\\page": {
       "modules": [
+        "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\node_modules\\react-responsive-carousel\\lib\\styles\\carousel.min.css",
         "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\node_modules\\swiper\\swiper.min.css"
       ],
       "files": [
-        "static/css/app/product/page.css"
+        "static/css/app/page.css"
       ]
+    },
+    "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\app\\loading": {
+      "modules": [],
+      "files": []
     },
     "C:\\Users\\abc\\Desktop\\Hadi\\My Bussiness\\Donishka\\web\\app\\layout": {
       "modules": [
