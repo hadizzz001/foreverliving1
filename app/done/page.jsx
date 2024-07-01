@@ -9,7 +9,7 @@ const page = () => {
     const { cart , removeFromCart } = useCart();
 
 
-    cart.forEach(element => {
+    cart?.forEach(element => {
         // console.log(element.id);
         removeFromCart(element.id) 
       });

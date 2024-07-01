@@ -5,6 +5,7 @@ import { useState } from "react"
 const useLocalStorage = (key, initialValue) => {
   const [state, setState] = useState(() => {
     // Initialize the state 
+    if (typeof window !== "undefined") {
     try {
       
       const value = window.localStorage.getItem(key)
@@ -14,10 +15,12 @@ const useLocalStorage = (key, initialValue) => {
     } catch (error) {
       console.log(error)
     }
+    }
   })
 
 
   const setValue = value => {
+    if (typeof window !== "undefined") {
     try {
       // If the passed value is a callback function,
       //  then call it with the existing state.
@@ -26,6 +29,7 @@ const useLocalStorage = (key, initialValue) => {
       setState(value)
     } catch (error) {
       console.log(error)
+    }
     }
     
   }
