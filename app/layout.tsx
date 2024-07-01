@@ -35,15 +35,15 @@ export default function RootLayout({
   />
   <meta content="max-image-preview:large" name="robots" />
   <title>
-  Donishka 
+  Forever Living 
   </title>
   <meta
-    content="At Donishka, we're reshaping the way businesses connect."
+    content="At Forever Living, we're reshaping the way businesses connect."
     name="description" 
   />
-  <meta content="Donishka" name="keywords" property="" />
+  <meta content="Forever Living" name="keywords" property="" />
   <meta
-    content="Donishka"
+    content="Forever Living"
     name=""
     property="og:title"
   />
@@ -54,7 +54,7 @@ export default function RootLayout({
   />
   <meta content="website" name="" property="og:type" />
   <meta
-    content="At Donishka, we're reshaping the way businesses connect."
+    content="At Forever Living, we're reshaping the way businesses connect."
     name=""
     property="og:description"
   />

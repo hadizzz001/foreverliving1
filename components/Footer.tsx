@@ -73,51 +73,7 @@ const Footer = () => {
                         ".NewsletterSignupFooter{display:block;background:#f4f4f4;padding:20px 15px}.NewsletterSignupFooter_Component{margin:20px auto;min-height:42px;max-width:454px}.NewsletterSignupFooter_Disclaimer{max-width:454px;margin:0 auto}.NewsletterSignupFooter_Disclaimer a,.NewsletterSignupFooter_Disclaimer a:hover,.NewsletterSignupFooter_Disclaimer a:visited,.NewsletterSignupFooter_Disclaimer a:active{color:#c01907}@media (min-width: 1280px){.NewsletterSignupFooter_Heading{line-height:2.5rem;font-size:1.75rem}}\n"
                 }}
             />
-            <div className="NewsletterSignupFooter">
-                <h2 className="NewsletterSignupFooter_Heading br_text-2xl-serif br_text-center ">
-                    Get exclusive access to new products, deals &amp; surprise treats.
-                </h2>
-                <div className="NewsletterSignupFooter_Component">
-                    <style
-                        type="text/css"
-                        dangerouslySetInnerHTML={{
-                            __html:
-                                '\n      .NewsletterSignupFooter_Component {\n        position: relative;\n        font-family: "Lato", sans-serif;\n        -webkit-font-smoothing: antialiased;\n     text-align: center;      }\n\n      .NewsletterSignupFooter_Component .klaviyo_helptext {\n        font-family: "PT Serif", serif;\n        padding-top: 10px;\n      }\n\n      .NewsletterSignupFooter_Component .klaviyo_gdpr_text {\n        font-family: "PT Serif", serif;\n        font-size: 14px;\n        line-height: 1.3;\n      }\n\n      .NewsletterSignupFooter_Component label {\n        color:#222;\n      }\n\n      .NewsletterSignupFooter_Component .klaviyo_field_group {\n        display: inline-flex;\n        transform-style: preserve-3d;\n        backface-visibility: hidden;\n        transition: transform .4s ease, background-color .4s ease;\n        height: 42px;\n        border-radius: 4px;\n        margin: 0;\n        background-color: #fff;\n        border: 1px solid #FFF;\n        padding: 3px;\n        box-shadow: 0 17px 9px -15px rgb(0 0 0 / 50%);\n      }\n\n      .NewsletterSignupFooter_Component .klaviyo_field_group .klaviyo_form_actions {\n        text-align:left;\n       }\n\n      .NewsletterSignupFooter_Component input[type=checkbox] + label {\n        display: inline;\n        font-weight:normal;\n        padding-left:5px;\n      }\n\n      .NewsletterSignupFooter_Component input[type=text], .NewsletterSignupFooter_Component input[type=email] {\n        font-family: Lato, sans-serif;\n        font-size: 12px;\n        font-weight: 700;\n        border-radius: 0px;\n        border: none;\n        outline: none;\n        transition: background .1s ease;\n width: 250px;      }\n\n      .NewsletterSignupFooter_Component input[type=email]::placeholder {\n        color: #b0b0b0;\n        letter-spacing: 0.5px;\n      }\n\n      .NewsletterSignupFooter_Component input[type=email]:focus + .klaviyo_form_actions .klaviyo_submit_button,\n      .NewsletterSignupFooter_Component input[type=email]:valid + .klaviyo_form_actions .klaviyo_submit_button {\n        background: #c01907;\n      }\n\n      .NewsletterSignupFooter_Component .klaviyo_submit_button {\n        font-family: "Lato", sans-serif;\n        font-size: 12px;\n        font-weight: 700;\n        background: #d7d7d7;\n        text-align: center;\n        padding: 0 5px;\n        min-width: 64px;\n        outline: none;\n        border: 0;\n        border-radius: 4px;\n        color: #fff;\n        text-transform: uppercase;\n        letter-spacing: 1.5px;\n        cursor: pointer;\n      }\n\n      .NewsletterSignupFooter_Component .klaviyo_messages {\n        margin-top: 5px;\n        font-family: "Lato", sans-serif;\n        font-size: 12px;\n        font-weight: normal;\n      }\n\n      .NewsletterSignupFooter_Component .klaviyo_messages .error_message {\n        display: flex;\n        font-family: "Lato", sans-serif;\n        font-size: 12px;\n        font-weight: 700;\n        color: #c43e22;\n        letter-spacing: .5px;\n        text-align: left;\n      }\n\n      .NewsletterSignupFooter_Component .klaviyo_messages .error_message:before {\n        display: inline-block;\n        content: "\\2191";\n        font-size: 10px;\n        padding: 0 5px;\n      }\n\n      .NewsletterSignupFooter_Component .klaviyo_messages .success_message {\n        color: #c01907;\n        background-color: #fff;\n        padding: 9px;\n        border-radius: 3px;\n        font-family: "Lato", sans-serif;\n        font-size: 12px;\n        font-weight: 700;\n        text-align: center;\n      }\n    '
-                        }}
-                    />
-                    <form action={async formData => { await sendEmail(formData); }}
-                    >
-
-                        <div className="klaviyo_field_group">
-                            <input
-                                className="email-input"
-                                type="email"
-                                name="email"
-                                id="k_id_email"
-                                placeholder="Enter your email to register"
-                                required
-                            />
-                            <div className="klaviyo_form_actions">
-                                <button type="submit" className="klaviyo_submit_button" style={{ padding: "0.5em" }}>
-                                    Submit
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <p className="NewsletterSignupFooter_Disclaimer br_text-xs-sans-spaced br_text-grey-400 br_text-center">
-                    You are signing up to receive product updates and newsletters. By
-                    signing up, you are consenting to our{" "}
-                    <a
-                        href="/privacy"
-                        data-auto-id="true"
-                        id="page-footer-customer-care-privacy-policy-1"
-                    >
-                        privacy policy
-                    </a>{" "}
-                    but you can opt out at any time.
-                </p>
-            </div>
+ 
             <section className="SiteFooter__wrapper" id="footer">
                 <nav className="SiteFooterSitemap">
                     <div
@@ -129,7 +85,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     target="_blank"
-                                    href="https://www.tiktok.com/@donishka_officiel"
+                                    href="https://www.tiktok.com/@Forever Living_officiel"
                                     data-auto-id="true"
                                     id="page-footer-http-www-instagram-com-bellroy-1"
                                 >
@@ -155,7 +111,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     target="_blank"
-                                    href="https://www.instagram.com/donishka_officiel"
+                                    href="https://www.instagram.com/Forever Living_officiel"
                                     data-auto-id="true"
                                     id="page-footer-http-www-instagram-com-bellroy-1"
                                 >
@@ -185,7 +141,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     target="_blank"
-                                    href="https://www.facebook.com/donishkaofficiel/"
+                                    href="https://www.facebook.com/Forever Livingofficiel/"
                                     data-auto-id="true"
                                     id="page-footer-https-www-facebook-com-bellroy-official-1"
                                 >
@@ -206,7 +162,7 @@ const Footer = () => {
                             <li>
                                 <a
                                     target="_blank"
-                                    href="https://wa.me/243901791643"
+                                    href="https://wa.me/243828379987"
                                     data-auto-id="true"
                                     id="page-footer-https-www-youtube-com-channel-ucy6vodc_wyzj4rlslixgp1q-1"
                                 >
@@ -303,32 +259,32 @@ const Footer = () => {
                         <ul> 
                             <li>
                                 <a
-                                    href="/search?cat=Food"
+                                    href="/search?cat=Crème Homme"
                                     data-auto-id="true"
                                     id="page-footer-collection-bestsellers-1"
                                 >
 
-                                    Food
+                                    Crème Homme
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="/search?cat=Drink"
+                                    href="/search?cat=Crème Femme"
                                     data-auto-id="true"
                                     id="page-footer-coming-soon-1"
                                 >
 
-                                    Drink
+                                    Crème Femme
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="/search?cat=Donishka Mart"
+                                    href="/search?cat=Crème Bébé"
                                     data-auto-id="true"
                                     id="page-footer-collection-premium-1"
                                 >
 
-Donishka Mart
+Crème Bébé
                                 </a>
                             </li>
                         </ul>
@@ -396,7 +352,7 @@ Donishka Mart
                             </div>
                             <div className="column">
                                 <span className="copyright">
-                                    All rights reserved © {(new Date().getFullYear())} Donishka
+                                    All rights reserved © {(new Date().getFullYear())} Forever Living
                                 </span>
                             </div>
                         </div>

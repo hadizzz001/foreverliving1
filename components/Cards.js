@@ -27,7 +27,7 @@ export default function Test() {
 
 
   const a = async () => {
-    b = await fetchTemp1("Food")
+    b = await fetchTemp1("Crème Homme")
     setTemp(b)
   }
   useEffect(() => {

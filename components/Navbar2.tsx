@@ -218,7 +218,7 @@ function NavBar() {
             data-auto-id="true"
             id="page-header-homepage-1"
           >
-            <img src="https://ucarecdn.com/6c1db2f0-a838-418d-9cfa-d83c7dc8b111/8a91d52bc39e4172ad2f0d86cc6948c1.jpg" alt="" width={150} />
+            <img src="https://ucarecdn.com/6ccff8ab-d3c1-421d-80ac-46844acc40d5/white.webp" alt="" width={100} />
           </a>
           <button id='hamburger' className="hamburger xl:pointer-fine:br_invisible" onClick={handleClick}>
             <span />
@@ -226,6 +226,14 @@ function NavBar() {
             <span />
           </button>
           <div className="shippingMessage" />
+          <style
+  dangerouslySetInnerHTML={{
+    __html:
+      "\n  #page-header-homepage-1{\n    margin-top:1em;\n  }\n\n  @media screen and (max-width: 767px) {\n      #page-header-homepage-1{\n    margin-top:0em;\n  }\n  }\n"
+  }}
+/>
+
+
           <style
             type="text/css"
             dangerouslySetInnerHTML={{
@@ -341,7 +349,7 @@ function NavBar() {
                       <li className="br_group/sub-item br_break-inside-avoid xl:pointer-fine:br_w-[10vw] xl:pointer-fine:br_max-w-[120px] xl:pointer-fine:br_text-center">
                         <a
                           className="br_block br_py-2 br_text-grey-500 br_no-underline br_text-base-sans-stretched hover:br_text-orange active:br_text-orange xl:pointer-fine:br_relative xl:pointer-fine:br_py-0 xl:pointer-fine:br_flex xl:pointer-fine:br_flex-col xl:pointer-fine:br_gap-1 xl:pointer-fine:br_items-center"
-                          href="/search?cat=Food"
+                          href="/search?cat=Crème Homme"
                           id="0_bags_0_backpacks"
                         >
                           <figure className="br_hidden xl:pointer-fine:br_flex xl:pointer-fine:br_items-center xl:pointer-fine:br_h-24">
@@ -350,18 +358,18 @@ function NavBar() {
                               className="br_block br_w-full br_h-full br_rounded-md br_object-contain br_object-center"
                               loading="lazy"
                               sizes="100vw"
-                              src="https://ucarecdn.com/b2988e34-2e93-4c64-a77d-c8d4782589de/food.webp?auto=format&fit=max"
+                              src="https://ucarecdn.com/203791dd-2376-408b-8d3c-d5b404eb15f0/1.webp?auto=format&fit=max"
                             />
                           </figure>
                           <span style={{ color:"white"}}>
-                          Food 
+                          Crème Homme 
                           </span>
                         </a>
                       </li>
                       <li className="br_group/sub-item br_break-inside-avoid xl:pointer-fine:br_w-[10vw] xl:pointer-fine:br_max-w-[120px] xl:pointer-fine:br_text-center">
                         <a
                           className="br_block br_py-2 br_text-grey-500 br_no-underline br_text-base-sans-stretched hover:br_text-orange active:br_text-orange xl:pointer-fine:br_relative xl:pointer-fine:br_py-0 xl:pointer-fine:br_flex xl:pointer-fine:br_flex-col xl:pointer-fine:br_gap-1 xl:pointer-fine:br_items-center"
-                          href="/search?cat=Drink"
+                          href="/search?cat=Crème Femme"
                           id="0_bags_1_crossbody-bags"
                         >
                           <figure className="br_hidden xl:pointer-fine:br_flex xl:pointer-fine:br_items-center xl:pointer-fine:br_h-24">
@@ -370,18 +378,18 @@ function NavBar() {
                               className="br_block br_w-full br_h-full br_rounded-md br_object-contain br_object-center"
                               loading="lazy"
                               sizes="100vw"
-                              src="https://ucarecdn.com/ac1e37cc-5514-4e7e-aa87-7684a3aabd18/drink.webp?auto=format&fit=max"
+                              src="https://ucarecdn.com/9bc42e1b-2fc0-4a0c-8895-80cc6a6ed9fb/2.webp?auto=format&fit=max"
                             />
                           </figure>
                           <span style={{ color:"white"}}>
-                          Drink
+                          Crème Femme
                           </span>
                         </a>
                       </li>
                       <li className="br_group/sub-item br_break-inside-avoid xl:pointer-fine:br_w-[10vw] xl:pointer-fine:br_max-w-[120px] xl:pointer-fine:br_text-center">
                         <a
                           className="br_block br_py-2 br_text-grey-500 br_no-underline br_text-base-sans-stretched hover:br_text-orange active:br_text-orange xl:pointer-fine:br_relative xl:pointer-fine:br_py-0 xl:pointer-fine:br_flex xl:pointer-fine:br_flex-col xl:pointer-fine:br_gap-1 xl:pointer-fine:br_items-center"
-                          href="/search?cat=Donishka Mart"
+                          href="/search?cat=Crème Bébé"
                           id="0_bags_2_tote-bags"
                         >
                           <figure className="br_hidden xl:pointer-fine:br_flex xl:pointer-fine:br_items-center xl:pointer-fine:br_h-24">
@@ -390,11 +398,11 @@ function NavBar() {
                               className="br_block br_w-full br_h-full br_rounded-md br_object-contain br_object-center"
                               loading="lazy"
                               sizes="100vw"
-                              src="https://ucarecdn.com/6ff24a61-e8eb-4eec-ad03-1b82802ff2bf/mart.webp?auto=format&fit=max"
+                              src="https://ucarecdn.com/d553a1a1-9f38-43f9-b4a6-f7cd504ab20d/3.webp?auto=format&fit=max"
                             />
                           </figure>
                           <span style={{ color:"white"}}>
-                          Donishka Mart
+                          Crème Bébé
                           </span>
                         </a>
                       </li> 
@@ -410,7 +418,7 @@ function NavBar() {
                               className="br_block br_w-full br_h-full br_rounded-md br_object-contain br_object-center"
                               loading="lazy"
                               sizes="100vw"
-                              src="https://ucarecdn.com/92f0cd7a-318e-437d-9f74-816e3d824bea/all.webp"
+                              src="https://ucarecdn.com/f0a18bf0-3a27-4e97-a46a-7d6b559e0839/all.webp"
                             />
                           </figure>
                           <span style={{ color:"white"}}>
@@ -462,7 +470,7 @@ function NavBar() {
 <style
   dangerouslySetInnerHTML={{
     __html:
-      "\n  #page-header-homepage-1{\n        margin-top: 2em;\n  }\n\n  @media only screen and (max-width: 600px) {\n      #page-header-homepage-1{\n        margin-top: 0;\n  }\n  }\n"
+      " \n  @media only screen and (max-width: 600px) {\n      #page-header-homepage-1{\n        margin-top: 0;\n  }\n  }\n"
   }}
 />
 

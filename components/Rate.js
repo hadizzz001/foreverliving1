@@ -79,7 +79,7 @@ export default function Rate() {
             <div className="custom-header-1">
                 <div className="container-xl">
                     <br />
-                    <h4 className="text-center pt-3" style={{color: "#fff"}}>Leave Review</h4>
+                    <h4 className="text-center pt-3" style={{color: "#fff"}}>Laisser un avis</h4>
                 </div>
             </div>
             <div className="container-xl  custom-page-1 " style={{background: "#f4f4f4", maxWidth:"700px"}}>
@@ -92,7 +92,7 @@ export default function Rate() {
                                         <div className="col-sm-12">
                                             <input
                                                 className="form-control myTextt"
-                                                name="name"
+                                                name="Nom"
                                                 type="text"
                                                 placeholder="Name"
                                                 onChange={handleChange}

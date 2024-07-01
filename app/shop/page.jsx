@@ -35,9 +35,9 @@ const Body = () => {
 
 
     const checkboxesData = [
-        { id: 1, label: 'Food' },
-        { id: 2, label: 'Drink' },
-        { id: 3, label: 'Donishka Mart' }
+        { id: 1, label: 'Crème Homme' },
+        { id: 2, label: 'Crème Femme' },
+        { id: 3, label: 'Crème Bébé' }
     ];
 
 

@@ -26,9 +26,9 @@ export default function Home() {
           <h2 className="u-text u-text-1" style={{fontFamily: '"Manrope", sans-serif',fontWeight: "bolder",marginBottom: "1em",fontSize: "3em"}}>About Company</h2>
           <p className="u-text u-text-2" style={{fontFamily: 'Frank Ruhl Libre, "PT Serif", "Noto Serif", "Noto Serif JP", "Noto Serif KR", "Noto Serif SC", "Noto Serif TC", ui-serif, Georgia, Cambria, Times New Roman, Times, serif',fontSize: "1.2rem",lineHeight: "2rem",fontWeight:"400"}}>
             {" "}
-            Donishka is a vibrant company with a strong presence in Gombe and Kinshasa. We specialize in providing a wide range of high-quality products across our three main categories: food, drinks, and mart.
+            Forever Living is a vibrant company with a strong presence in Gombe and Kinshasa. We specialize in providing a wide range of high-quality products across our three main categories: Crème Homme, Crème Femmes, and mart.
 <br/><br/>
-Our commitment to excellence ensures that our customers receive only the best products, sourced locally and internationally. At Donishka, we prioritize customer satisfaction and strive to create a seamless shopping experience both in-store and online. Our dedication to the community and sustainability drives us to continuously improve and expand our offerings.
+Our commitment to excellence ensures that our customers receive only the best products, sourced locally and internationally. At Forever Living, we prioritize customer satisfaction and strive to create a seamless shopping experience both in-store and online. Our dedication to the community and sustainability drives us to continuously improve and expand our offerings.
                                 
           </p>
  
