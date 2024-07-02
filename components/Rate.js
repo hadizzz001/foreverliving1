@@ -92,9 +92,9 @@ export default function Rate() {
                                         <div className="col-sm-12">
                                             <input
                                                 className="form-control myTextt"
-                                                name="Nom"
+                                                name="name"
                                                 type="text"
-                                                placeholder="Name"
+                                                placeholder="Nom"
                                                 onChange={handleChange}
                                                 required
                                             />

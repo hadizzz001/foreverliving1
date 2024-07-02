@@ -36,6 +36,9 @@ export const GET = async (req: Request, res: NextResponse) => {
 export const POST = async (req: Request, res: NextResponse) => {
     try {
         const {name, description,stars} = await req.json();
+console.log("name:" + name);
+console.log("description:" + description);
+console.log("stars:" + stars);
 
         await main();   
         const post = await prisma.review.createMany({ data: {name, description,stars} });  
